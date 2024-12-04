@@ -5,7 +5,7 @@ function About() {
       <div className='container mx-auto text-center pt-10 text-[#0B1536]'>
         <h2 className='font-medium text-3xl mb-2'>About</h2>
         <p> my Intro</p>
-        <div className='flex gap-20 items-center mt-10'>
+        <div className='flex gap-20 items-center mt-10 '>
           <div className='intro-left'>
             <img src={about} alt={about} className='w-[30em] aspect-auto' />
           </div>
@@ -30,7 +30,7 @@ function About() {
               web applications design, and dynamic websites, offering end-to-end
               development solutions across multiple platforms.
             </p>
-            <button className='bg-[#0B1536] text-[#e9e9e9] rounded-3xl px-8 py-3 hover:bg-[#E9E9E9] hover:text-[#0B1536] transition-all mt-8'>
+            <button className='bg-[#0B1536] text-[#e9e9e9] rounded-3xl px-8 py-3 hover:bg-[#E9E9E9] hover:text-[#0B1536] hover:drop-shadow-md hover:shadow-[#0B1536] transition-all mt-8'>
               Contact Me
             </button>
           </div>
