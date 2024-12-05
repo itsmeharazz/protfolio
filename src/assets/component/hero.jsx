@@ -1,9 +1,10 @@
 // import AddSocal from "./socal";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { Element } from "react-scroll";
 import coverimg from "../image/8308.jpg";
 function Hero() {
   return (
-    // <Element name ="hero-section">
+    <Element name ="hero-section">
     <div className='w-full bg-[#E9DED3] h-[100vh]'>
       <div className='container flex justify-between items-center mx-auto pt-10 gap-20'>
         <div className='flex-col gap-10 text-[#0B1536] mr-10'>
@@ -20,7 +21,7 @@ function Hero() {
         <img src={coverimg} alt={coverimg} className='w-[29em] aspect-auto' />
       </div>
     </div>
-    // </Element>
+     </Element>
   );
 }
 

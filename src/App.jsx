@@ -2,6 +2,7 @@ import About from './assets/component/about'
 import Experience from './assets/component/experience'
 import Hero from './assets/component/hero'
 import Header from './assets/component/layours/header'
+import Portfolio from './assets/component/portfolio'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
      <Hero />
       <About />
       <Experience />
+      <Portfolio />
     </>
   )
 }
