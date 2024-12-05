@@ -13,6 +13,7 @@ export default {
       secondary: "#E9E9E9",
       tertiary: "#0B1536",
       quaternary: "#EBC400",
+      number: "#A2A2A2",
     },
   },
   plugins: [],
