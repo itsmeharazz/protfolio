@@ -16,7 +16,7 @@ function AddSocal() {
           className='cursor-pointer transition hover:text-[#E9E9E9]'
           key={socallink.href}
           to={socallink.href}>
-          {socallink.lable}
+          <socallink.lable/>
         </Link>
       ))}
     </div>

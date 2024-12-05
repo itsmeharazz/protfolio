@@ -66,11 +66,13 @@ function Experience() {
           <div className='lg:flex justify-between items-center mx-auto mt-12 skills'>
             {skills.map((ablities, skill) => (
               <div
-                className='flex  justify-around items-start rounded-2xl broder-2 broder-[#0B1536]  shadow-md shadow-[#0B1536] p-5 w-[21%] h-[5.5em] mb-8 hover:bg-[#E9E9E9] transition-all'
+                className='flex justify-around items-start rounded-2xl border-2 border-[#0b153643]  shadow-md shadow-[#0b153664] p-5 w-[20.5%] h-[5.5em] mb-8 hover:bg-[#E9E9E9] transition-all'
                 key={skill}>
-                <p>{ablities.skillimg}</p>
-                <div className='scontent text-left'>
-                  <h2>{ablities.skillname}</h2>
+                <p className='text-4xl text-tertiary'>
+                  <ablities.skillimg />
+                </p>
+                <div className=' text-left text-tertiary'>
+                  <h2 className="text-tertiary font-semibold text-xl">{ablities.skillname}</h2>
                   <p>{ablities.label} </p>
                 </div>
               </div>

@@ -3,6 +3,8 @@ import Experience from './assets/component/experience'
 import Hero from './assets/component/hero'
 import Header from './assets/component/layours/header'
 import Portfolio from './assets/component/portfolio'
+import Services from './assets/component/services'
+import WorkProcess from './assets/component/workProcess'
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
       <About />
       <Experience />
       <Portfolio />
+      <Services />
+      <WorkProcess />
     </>
   )
 }

@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.skills{
+.skills {
     display: flex;
     flex-wrap: wrap;
+}
+
+.viewProject:hover .code {
+    visibility:visible;
 }
