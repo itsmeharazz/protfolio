@@ -6,6 +6,7 @@ function Header() {
       <div className='container flex justify-between items-center mx-auto '>
         <h2 className='font-medium text-[#0B1536]'>Meharaz</h2>
         <Navbar />
+        
       </div>
     </section>
   );
