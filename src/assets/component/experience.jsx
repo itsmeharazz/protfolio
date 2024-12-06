@@ -49,6 +49,7 @@ function Experience() {
       skillname: "Laravel",
       label: "Fameliyer",
     },
+    
   ];
   return (
     <Element name='skill-section'>
