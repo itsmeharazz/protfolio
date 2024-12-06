@@ -6,7 +6,7 @@ export const Navbar = () => {
       {navlink.map((link) => (
         <Link
           activeClass='text-[#0B1536]'
-          className='text-[0B1536] hover:text-[#0b1536a8] transition-all cursor-pointer'
+          className='text-[#0B1536] hover:text-[#0b1536a8] transition-all cursor-pointer dark:text-secondary  '
           key={link.href}
           to={link.href}
           smooth 
@@ -15,5 +15,6 @@ export const Navbar = () => {
         </Link>
       ))}
     </ul>
+
   );
 };

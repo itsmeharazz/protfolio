@@ -2,14 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* dark and light mood */
-#light{
-    background-color: #E9DED3;
-    color:#0B1536;
-}
-#dark{
-    background-color: #0B1536;
-    color:#E9E9E9;
+*{
+    @apply transition-colors duration-300;
 }
 
 .skills {
