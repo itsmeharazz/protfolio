@@ -45,7 +45,7 @@ function WorkProcess() {
           <div className='flex flex-wrap justify-around text-start '>
             {process.map((works, proces) => (
               <div
-                className='w-[30%]  bg-secondary rounded-xl  shadow-2xl hover:border hover:border-tertiary p-4 mb-8'
+                className='w-[100%] md:w-[100%] lg:w-[30%] xl:w-[30%] 2xl:w-[30%] bg-secondary rounded-xl  shadow-2xl hover:border hover:border-tertiary p-4 mb-8'
                 key={proces}>
                 <div className='flex gap-3 items-center'>
                   <p className='text-[4em] font-semibold text-number'>

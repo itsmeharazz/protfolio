@@ -36,13 +36,15 @@ function Services() {
           <div className='flex flex-wrap justify-between items-center  my-8'>
             {service.map((offer, services) => (
               <div
-                className='card w-[48%]   rounded-2xl p-4 border-2 border-[#0b153637] hover:bg-[#E9E9E9] mb-7 '
+                className='card w-[100%] mx-auto md:w-[45%] lg:w-[45%] xl:w-[45%] 2xl:w-[45%]  rounded-2xl p-4 border-2 border-[#0b153637] hover:bg-[#E9E9E9] mb-7 '
                 key={services}>
-                <p className="text-center text-3xl my-3">
+                <p className='text-center text-3xl my-3'>
                   <offer.icon />
                 </p>
-                <h2 className='text-left text-xl my-2 font-semibold'>{offer.titel}</h2>
-                <p className='text-left'>{offer.des}</p>
+                <h2 className='text-left text-md  lg:text-xl xl:text-xl 2xl:text-xl my-2 font-semibold'>
+                  {offer.titel}
+                </h2>
+                <p className='text-left text-tertiary'>{offer.des}</p>
               </div>
             ))}
           </div>

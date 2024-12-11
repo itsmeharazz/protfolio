@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 *{
-    @apply transition-colors duration-300;
+    @apply transition-colors duration-100;
 }
 
 .skills {
@@ -13,4 +13,13 @@
 
 .viewProject:hover .code {
     visibility:visible;
+}
+
+.removebg{
+    mix-blend-mode: multiply;
+}
+.intro-left{
+    background-color: #a2a2a2;
+    border-radius: 130% 130% 0 0 ;
+    overflow: hidden;
 }
