@@ -1,7 +1,7 @@
 import cssproject from "../image/CSS-Project.png";
 import cssproject2 from "../image/css-Project-2.jpg";
 import cssproject3 from "../image/css-3.png";
-import cssproject4 from "../image/css-4.png";
+import cssproject4 from "../image/css-4.jpg";
 
 
 function  Project() {
