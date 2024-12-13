@@ -21,7 +21,12 @@ function Contact() {
                 <p className='font-semibold text-3xl'>Email</p>
                 <p>itsmeharazz@gmail.com</p>
                 <div className='flex items-center gap-4 mx-auto hover:gap-6 cursor-pointer'>
-                  <p className='text-xl'>Click here </p>
+                  <a
+                    href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#all'
+                    target='black'
+                    className='text-xl'>
+                    Click here{" "}
+                  </a>
                   <FaLongArrowAltRight />
                 </div>
               </div>
@@ -31,7 +36,12 @@ function Contact() {
                 </p>
                 <p className='font-semibold text-3xl'>Whatsapp</p>
                 <div className='flex items-center gap-4 mx-auto hover:gap-6 cursor-pointer'>
-                  <p className='text-xl'>Click here </p>
+                  <a
+                    href='https://whatsapp.com/dl/'
+                    target='black'
+                    className='text-xl'>
+                    Click here{" "}
+                  </a>
                   <FaLongArrowAltRight />
                 </div>
               </div>
@@ -57,7 +67,6 @@ function Contact() {
                 <button
                   type='submyt'
                   className='bg-tertiary text-secondary block py-3 w-50% lg:w-[30%] rounded-3xl hover:bg-secondary hover:text-tertiary hover:shadow transition-all'>
-                  
                   Send Message
                 </button>
               </from>
